@@ -21,6 +21,7 @@ return {
     priority = 1000,
     opts = {},
   },
+  { "max397574/better-escape.nvim", event = "InsertCharPre", opts = { timeout = 300, mapping = { "kj", "jk" } } },
   {
     "folke/flash.nvim",
     event = "VeryLazy",
